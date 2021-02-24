@@ -1,0 +1,343 @@
+/* for all */
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    font-family: 'Playball', cursive;
+}
+#project h1, #Education h1, #Blog h1, #Contact h1{
+    text-align: center;
+    font-size: 2.1rem;
+    margin: 23px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+hr{
+    width: 58px;
+    border-top: 3px solid rgb(114, 112, 112);
+    margin: auto;
+    opacity: .5;
+    margin-top: 4px;
+    margin-bottom: 6px;
+
+}
+/* Navbar section start */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 9px;
+    margin: 8px 39px;
+    position: relative;
+
+}
+#navbar ul a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 4px 32px;
+    font-family: 'Balthazar', serif;
+    background: #b2acac;
+    color: black;
+    border-radius: 14px;
+    transition-delay: .1s;
+
+
+
+}
+#navbar ul a:hover{
+    background-color: rgb(43, 43, 34);
+    color: white;
+
+}
+.logo img{
+    display: flex;
+    margin-left: 32px;
+    height: 44px;
+    width: 44px;
+    padding: 3px;
+    
+}
+#navbar .socal{
+    margin: auto;
+    margin-right: 101px;
+}
+#navbar .socal a{
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    transition-delay: .7s;
+}
+svg{
+    transition-delay: .1s;
+}
+svg:hover{
+    padding: 4px;
+    margin-bottom: 4px;
+    background: white;
+    color: #564c4c;
+}
+/* Navbar section end */
+/* Home start */
+#Home{
+    overflow: hidden;
+    font-family: 'Balthazar', serif;
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    background: url('img/home6.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+
+}
+#Home h1 {
+    text-align: center;
+    margin: 341px 158px;
+    padding: 8px 257px;
+    font-size: 4.3rem;
+    color: #cfdfee;
+}
+/* Home end */
+/* About Part start */
+#About-me{
+    background-color: yellow;
+    font-family: 'Playball', cursive;
+    overflow: hidden;
+
+
+}
+#About-me h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 23px;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-family: 'Balthazar', serif;
+
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(4,380px);
+
+}
+#box .box1{
+    text-align: center;
+    margin: 34px;
+}
+#box .box1 h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+    margin-bottom: 3px;
+    margin-bottom: 10px;
+}
+#box .box1 p{
+    text-align: center;
+    padding: 34px;
+    /* padding-top: 4px; */
+}
+/* About Part end */
+/* Project Part start */
+#project{
+    font-family: 'Balthazar', serif;
+    overflow: hidden;
+}
+#project-box{
+    display: grid;
+    grid-template-columns: repeat(5,300px);
+}
+.project h2{
+    text-align: center; 
+    margin: 34px;
+    margin-bottom: 14px; 
+}
+.project a{
+    text-decoration: none;
+}
+.project img{ 
+    margin: 5px;
+    margin-left: 76px;
+}
+.project p{
+    text-align: center;
+    margin: 10px 31px;
+    padding: 6px 35px;
+    font-size: 1.3rem;
+}
+.project label{
+    display: block;
+    text-align: center;
+    width: 121px;
+    margin: 5px 74px;
+    padding: 4px 17px;
+    font-size: 1.3rem;
+    background: yellow;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+/* Project Part end */
+/* Education parta start */
+#Education{
+    background: black;
+    overflow: hidden;
+    overflow: hidden;
+    color: white;
+}
+#Education hr{
+    background-color: white;
+    opacity: .9;
+}
+.container3{
+    /* display: flex; */
+}
+.box2{
+    display: flex;  
+}
+.container3 h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    padding: 6px;
+    margin: 6px;
+    background: white;
+    
+}
+/* Box left start */
+.box-left{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: url('img/home5.jpg') no-repeat center center/cover;
+
+}
+.box-left p{
+    font-size: 1rem;
+    padding: 7px 72px;
+    color: black;
+}
+.box-left p strong{
+    font-size: 1.1rem; 
+}
+.box-left img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    opacity: .5;
+}
+/* Box left end */
+
+/* box right start */
+.box-right{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: url('img/home5.jpg') no-repeat center center/cover;
+
+}
+.box-right h5{
+    font-size: 2rem;
+    padding: 15px;
+    color: black;
+    margin: 20px;
+}
+/* box right end */
+
+.box-left p{
+    font-size: 1rem;
+    padding: 7px 72px;
+    color: black;
+}
+.box-left p strong{
+    font-size: 1.1rem; 
+}
+.box-left img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    opacity: .5;
+}
+.box2 a{
+    color: white;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    height: 22px;
+    width: 81px;
+    margin: auto;
+    margin-top: 17px;
+    padding: 3px 17px;
+    margin-bottom: 19px;
+    border-radius: 11px;
+}
+/* Education parta end */
+/* Blog section start */
+#Blog{
+    background: rgb(240, 195, 195);
+    color: black;
+    overflow: hidden;
+}
+.blog-display{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 29px;
+
+}
+.first{
+    display: flex;
+    margin: 8px 15px;
+    margin-right: 98px;
+    
+}
+.first-side{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+    margin: auto;
+    margin-top: 0px;
+}
+.first img{
+    height: 100px;
+    width: 100px;
+
+}
+.first h3{
+    font-size: 1rem;
+}
+.first a:last-child{
+    color: white;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    height: 22px;
+    width: 81px;
+    margin: auto;
+    margin-top: 17px;
+    padding: 3px 17px;
+    margin-bottom: 19px;
+    border-radius: 11px;
+}
+/* Blog section end */
+
