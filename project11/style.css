@@ -71,6 +71,7 @@ hr{
     display: flex;
     margin-left: 32px;
     height: 44px;
+    border-radius: 30px;
     width: 44px;
     padding: 3px;
     
@@ -340,4 +341,60 @@ svg:hover{
     border-radius: 11px;
 }
 /* Blog section end */
+/* contact section start  */
+#Contact{
+    background-color: yellow;
+    overflow: hidden;
+    
+}
+.contacForm{
+    /* border: 2px solid green; */
+    background: url('img/socal.jpg') no-repeat center center/cover;
+    display: block;
+    /* width: 50%; */
+    text-align: center;
+    
+}
+.contacForm h1{
+    
+   color: white;
+    
+}
+.contacForm input{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 41%;
+    margin: 13px auto;
+    padding: 6px 8px;
+    border-radius: 29px;
+    outline: none;
+    font-size: 1.3rem;
+    
+}
+.contacForm textarea{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 41%;
+    margin: 16px auto;
+    padding: 15px 8px;
+    border-radius: 29px;
+    outline: none;
+    font-size: 1.3rem;
+    
+}
+.contacForm button{
+    margin: auto;
+    padding: initial;
+    margin-bottom: 191px;
+    padding: 13px 56px;
+    font-size: 1.5rem;
+    border-radius: 37px;
+    outline: none;
+    color: rgb(251, 255, 245);
+    background-color: rgb(117, 117, 121);
+    
+}
+/* contact section end */
 
