@@ -49,24 +49,60 @@ hr{
     position: relative;
 
 }
-#navbar ul a{
+#navbar ul li{
+    margin: 0px 6px;
+    padding: 4px 4px;
+
+
+}
+#navbar ul li a{
     text-decoration: none;
     font-size: 1.3rem;
     padding: 4px 32px;
     font-family: 'Balthazar', serif;
     background: #b2acac;
-    color: black;
+    color: rgb(68, 62, 73); 
     border-radius: 14px;
     transition-delay: .1s;
-
+    text-decoration: none;
 
 
 }
-#navbar ul a:hover{
+#navbar ul li a:hover{
     background-color: rgb(43, 43, 34);
     color: white;
 
 }
+/* Nevigation sub menu start */
+.sub-menu-4{
+    display: none;
+}
+#navbar ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    
+}
+#navbar ul li:hover .sub-menu-4 ul{
+    display: block;
+    margin: 3px -4px;
+    border-left: 2px solid rgb(26, 23, 23);
+    width: 162px;
+    border-radius: 13px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+#navbar ul li:hover .sub-menu-4 ul li{
+    padding: 5px;
+    border-bottom: 2px solid rgb(26, 23, 23);
+    margin-left: 0px;
+
+}
+#navbar ul li:hover .sub-menu-4 ul li:last-child{
+    border-bottom: none;
+   
+}
+/* Nevigation sub menu End*/
 .logo img{
     display: flex;
     margin-left: 32px;
@@ -81,19 +117,26 @@ hr{
     margin-right: 101px;
 }
 #navbar .socal a{
-    margin: 3px;
-    padding: 3px;
+    margin: 4px;
+    padding: 6px;
     color: white;
-    transition-delay: .7s;
+    background: #3e3e33;
+}
+#navbar .socal a:hover{
+    margin: 4px;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    background: #fffffc;
+    transition-delay: .2s;
 }
 svg{
     transition-delay: .1s;
 }
 svg:hover{
-    padding: 4px;
-    margin-bottom: 4px;
+    /* margin: 4px;
+    padding: 6px;
     background: white;
-    color: #564c4c;
+    color: #564c4c; */
 }
 /* Navbar section end */
 /* Home start */
@@ -393,7 +436,7 @@ svg:hover{
     border-radius: 37px;
     outline: none;
     color: rgb(251, 255, 245);
-    background-color: rgb(115, 92, 122);
+    background-color: rgb(117, 117, 121);
     
 }
 /* contact section end */
